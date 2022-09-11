@@ -69,7 +69,7 @@ function Header() {
                         Hizmetlerimiz
                     </Link>
                 </li>
-                <div className='flex gap-5 py-10 justify-center items-center font-light transition-all duration-500 ease-in-out'>
+                <div className='flex gap-5 mt-32 justify-center items-center font-light text-2xl transition-all duration-500 ease-in-out'>
                     <Link className='text-white cursor-pointer' to="maps" spy={true} smooth={true} offset={-100} duration={500} onClick={() => setMobileMenu(false)}>
                         Yol Tarifi Al
                     </Link>

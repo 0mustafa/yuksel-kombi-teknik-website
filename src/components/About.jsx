@@ -12,13 +12,13 @@ function About() {
                     </div>
                     <div></div>
                 </div>
-                <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8 items-center'>
-                    <div className='sm:text-right text-7xl text-brand3 font-bold'>
+                <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8 items-center px-1'>
+                    <div className='sm:text-right text-6xl md:text7xl text-brand3 font-bold'>
                         <p>YÜKSEL</p>
                         <p>KOMBİ</p>
                         <p>TEKNİK</p>
                     </div>
-                    <div className='text-brand3 text-lg'>
+                    <div className='text-brand3 text-sm md:text-lg'>
                         <p>
                             Düzce'nin Cumayeri ilçesinde bulunan dükkanımızda
                             Cumayeri ve çevresindeki yerleşim yerlerine

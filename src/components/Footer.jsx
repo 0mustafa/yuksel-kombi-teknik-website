@@ -5,7 +5,7 @@ import { FaInstagram } from 'react-icons/fa'
 function Footer() {
     return (
         <div className='w-full bg-brand4 pt-20 divide-y text-brand2'>
-            <div className='max-w-[1100px] mx-auto w-full md:h-full sm:h-screen flex md:flex-row sm:flex-col flex-wrap justify-between text-brand1 p-10 md:gap-10 sm:gap-10'>
+            <div className='max-w-[1100px] mx-auto w-full md:h-full h-screen flex md:flex-row sm:flex-col flex-wrap justify-between text-brand1 p-10 md:gap-10 sm:gap-10'>
 
                 <div className='h-max'>
                     <h2 className='font-bold text-3xl md:text-3xl sm:text-4xl'>YÜKSEL KOMBİ TEKNİK</h2>
