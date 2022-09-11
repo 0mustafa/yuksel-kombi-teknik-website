@@ -48,7 +48,7 @@ function Header() {
             </div>
 
             {/* Hamburger */}
-            <div className='md:hidden z-10 mr-7 p-3 cursor-pointer' onClick={() => setMobileMenu(!mobileMenu)}>
+            <div className='md:hidden z-10 p-3 cursor-pointer' onClick={() => setMobileMenu(!mobileMenu)}>
                 {mobileMenu ? <FaTimes className='text-brand1 duration-1000' /> : <FaBars />}
             </div>
 

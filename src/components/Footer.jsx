@@ -1,6 +1,7 @@
 import React from 'react'
 import { BiChevronRight } from 'react-icons/bi'
 import { FaInstagram } from 'react-icons/fa'
+import { Link } from 'react-scroll'
 
 function Footer() {
     return (
@@ -18,13 +19,22 @@ function Footer() {
                     <h2 className='font-bold text-xl mb-4'>Hızlı Linkler</h2>
                     <ul className='flex flex-col gap-2'>
                         <li>
-                            <a className='flex items-center hover:text-white' href="/"><BiChevronRight /> Anasayfa</a>
+                            <Link className='flex items-center hover:text-white cursor-pointer' to="home" spy={true} smooth={true} offset={50} duration={500}>
+                                <BiChevronRight />
+                                Anasayfa
+                            </Link>
                         </li>
                         <li>
-                            <a className='flex items-center hover:text-white' href="/"><BiChevronRight /> Hakkımızda</a>
+                            <Link className='flex items-center hover:text-white cursor-pointer' to="about" spy={true} smooth={true} offset={50} duration={500}>
+                                <BiChevronRight />
+                                Hakkımızda
+                            </Link>
                         </li>
                         <li>
-                            <a className='flex items-center hover:text-white' href="/"><BiChevronRight /> Hizmetlerimiz</a>
+                            <Link className='flex items-center hover:text-white cursor-pointer' to="service" spy={true} smooth={true} offset={50} duration={500}>
+                                <BiChevronRight />
+                                Hizmetlerimiz
+                            </Link>
                         </li>
                     </ul>
                 </div>
@@ -32,8 +42,8 @@ function Footer() {
                 <div className='h-max'>
                     <h2 className='font-bold text-xl mb-4'>İletişim</h2>
                     <div className='flex gap-2'>
-                        <a href="tel:+905457683310">Telefon:</a>
-                        <p className='inline'>0545 768 33 10</p>
+                        <p className='inline'>Telefon:</p>
+                        <a href="tel:+905457683310">0545 768 33 10</a>
                     </div>
                     <div className='flex gap-2'>
                         <p className='inline'>Eposta:</p>
@@ -49,7 +59,7 @@ function Footer() {
 
             <div className='max-w-[1100px] mx-auto flex justify-center items-center py-2 gap-1'>
                 <a className='text-sm flex items-center gap-1 text-brand1' href="instagram.com/yukselkombiteknik" rel="noreferrer" target="_blank">
-                    <FaInstagram/> 
+                    <FaInstagram />
                     yukselkombiteknik
                 </a>
             </div>

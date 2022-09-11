@@ -10,7 +10,10 @@ function Home() {
                     <h1 className='text-brand4 text-5xl font-bold'>Kombi, Doğalgaz</h1>
                     <h1 className='text-brand4 text-5xl font-bold'>Teknik Tesisatçı mı</h1>
                     <h1 className='text-brand1 text-5xl font-bold'>Arıyorsunuz ?</h1>
-                    <button className='bg-brand4 w-max flex items-center text-white py-3 px-5 rounded-full font-medium my-10 gap-2 hover:scale-110 duration-500'><FiPhoneCall size={18}/> Hemen Ara</button>
+                    <button className='bg-brand4 w-max flex items-center text-white py-3 px-5 rounded-full font-medium my-10 gap-2 hover:scale-110 duration-500'>
+                        <FiPhoneCall size={18}/> 
+                        <a href="tel:+905457683310">Hemen Ara</a>
+                    </button>
                 </div>
                 <div className="img hidden md:flex">
                     <img src={plumber} alt="plumber" />
