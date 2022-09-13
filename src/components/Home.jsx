@@ -14,7 +14,7 @@ function Home() {
 
             <div className='header fixed w-full h-[80px] flex justify-between shadow-sm px-6 text-brand4 items-center bg-white z-20'>
 
-                <div className='logo text-[1.5rem] font-bold'>
+                <div className='logo text-[1.5rem] font-bold min-w-max'>
                     <a href="/">YÜKSEL KOMBİ TEKNİK</a>
                 </div>
 
