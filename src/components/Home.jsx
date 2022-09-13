@@ -46,7 +46,7 @@ function Home() {
                     </div>
                     <div className="call">
                         <button className='py-3 px-5 bg-brand4 text-white rounded-full font-medium hover:scale-110 duration-500'>
-                            <a href="tel:+905457683310">Hemen Ara</a>
+                            <a className='flex items-center gap-2' href="tel:+905457683310">Hemen Ara<span className='text-sm font-normal'>{`+90 (545) 768 33 10`}</span></a>
                         </button>
                     </div>
                 </div>

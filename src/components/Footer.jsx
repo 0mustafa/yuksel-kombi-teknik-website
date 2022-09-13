@@ -64,7 +64,7 @@ function Footer() {
             </div>
 
             <div className='max-w-[1100px] mx-auto flex justify-center items-center py-2 gap-1'>
-                <a className='text-sm flex items-center gap-1 text-brand1' href="instagram.com/yukselkombiteknik" rel="noreferrer" target="_blank">
+                <a className='text-sm flex items-center gap-1 text-brand1' href="https://www.instagram.com/yukselkombiteknik" rel="noreferrer" target="_blank">
                     <FaInstagram />
                     yukselkombiteknik
                 </a>
