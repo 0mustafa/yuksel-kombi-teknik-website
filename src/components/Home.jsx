@@ -4,6 +4,7 @@ import { FiPhoneCall } from 'react-icons/fi'
 import { Link } from 'react-scroll'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import { useState } from 'react'
+import LazyLoad from 'react-lazy-load';
 
 function Home() {
 
@@ -14,6 +15,7 @@ function Home() {
 
             <div className='header fixed w-full h-[80px] flex justify-between shadow-sm px-6 text-brand4 items-center bg-white z-20'>
 
+                {/* HEADER */}
                 <div className='logo text-[1.5rem] font-bold min-w-max'>
                     <a href="/">YÜKSEL KOMBİ TEKNİK</a>
                 </div>
@@ -85,6 +87,7 @@ function Home() {
 
             </div>
 
+            {/* HOME */}
             <div className="container h-screen max-w-[1000px] mx-auto grid grid-cols-2 items-center">
                 <div className={mobileMenu ? 'content flex flex-col ml-5' : 'content flex flex-col ml-5 z-10'}>
                     <h1 className='text-brand4 text-5xl font-bold'>Kombi, Doğalgaz</h1>
@@ -95,9 +98,9 @@ function Home() {
                         <a href="tel:+905457683310">Hemen Ara</a>
                     </button>
                 </div>
-                <div className="img">
+                <LazyLoad className="img">
                     <img src={plumber} alt="plumber" />
-                </div>
+                </LazyLoad>
             </div>
         </div>
     )
