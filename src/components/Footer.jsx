@@ -11,9 +11,11 @@ function Footer() {
                 <div className='w-full mx-auto gap-10 flex flex-col md:flex-row flex-wrap justify-start md:justify-between'>
                     <div className='h-max'>
                         <h2 className='font-bold text-3xl md:text-3xl sm:text-4xl'>YÜKSEL KOMBİ TEKNİK</h2>
-                        <p className='mt-5 text-sm max-w-sm'>Düzce'nin Cumayeri ilçesinde Kombi Bakımı,
-                            Kombi Tamiri, Petek Temizliği konularında
-                            hizmet veren yerel bir işletmedir.</p>
+                        <p className='mt-5 text-sm max-w-sm'>
+                            Düzce ili ve tüm ilçelerine Ücretsiz Keşifle birlikte
+                            Kombi Bakımı, Kombi Tamiri, Petek Satışı, Petek Montajı, Petek Temizliği Oda Termostatı Satışı ve Oda Termostatı Montajı
+                            gibi konularda müşterilerimize hizmet veren yerel bir işletmeyiz.
+                        </p>
                     </div>
 
                     <div className='h-max'>

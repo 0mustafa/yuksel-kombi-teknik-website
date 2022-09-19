@@ -12,7 +12,7 @@ function Referances() {
     return (
         <div className='w-full'>
             <div className='max-w-[1000px] mx-auto my-20 h-full flex flex-col'>
-                <div>
+                <div className='text-center mb-10'>
                     <p className='text-4xl text-brand4 inline font-bold border-b-4 border-brand1'>Çalıştığımız Markalar</p>
                 </div>
 
